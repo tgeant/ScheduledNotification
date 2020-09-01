@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schedulednotification">
+
+    <application>
+        <service android:enabled="true" android:name="com.example.schedulednotification.ScheduledNotificationService" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+</manifest>
